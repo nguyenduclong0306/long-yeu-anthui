@@ -442,12 +442,12 @@
 
                         mesh.position.lerp(
                             new THREE.Vector3(0, 0, photoZ),
-                            0.3
+                            0.15
                         );
 
                         mesh.scale.lerp(
                             new THREE.Vector3(photoScale, photoScale, photoScale),
-                            0.3
+                            0.15
                         );
 
                         mesh.lookAt(camera.position);
@@ -530,6 +530,7 @@
         function logError(e) { document.getElementById('error-log').style.display = 'block'; document.getElementById('error-log').innerText += e + "\n"; }
     </script>
 </body>
+
 
 
 </html>
